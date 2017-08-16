@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += device/lge/lv517/overlay
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/lge/lv517/kernel
+	LOCAL_KERNEL := device/lge/lv517/prebuilt/kernel
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
